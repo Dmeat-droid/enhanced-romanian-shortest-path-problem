@@ -6,7 +6,7 @@ Proyek ini mengimplementasikan pencarian rute terpendek pada permasalahan klasik
 
 ## 📌 Fitur Utama
 
-- **Haversine Heuristic ($h(n)$)**: Menghitung jarak garis lurus *great-circle* pada permukaan bumi menggunakan koordinat lintang (*latitude*) dan bujur (*longitude*). Heuristik ini terbukti *admissible* ($h(n) \le h^*(n)$).
+- **Haversine Heuristic ( $h(n)$ )**: Menghitung jarak garis lurus *great-circle* pada permukaan bumi menggunakan koordinat lintang (*latitude*) dan bujur (*longitude*). Heuristik ini terbukti *admissible* ( $h(n) \le h^*(n)$ ).
 - **A\* Search**: Algoritma pencarian optimal yang meminimalkan $f(n) = g(n) + h(n)$, menjamin penemuan rute dengan jarak total terpendek.
 - **Greedy Best-First Search (GBFS)**: Algoritma pencarian yang hanya memprioritaskan jarak perkiraan ke tujuan $f(n) = h(n)$.
 - **Interactive GUI Visualizer**: Visualisasi graf peta Romania interaktif berbasis `tkinter` yang menampilkan jalur $A^*$ (hijau) dan Greedy BFS (oranye/merah) secara berdampingan.
