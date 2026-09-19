@@ -44,3 +44,8 @@ ROADS = {
   "Vaslui": {"Urziceni": 142, "Iasi": 92},
   "Zerind": {"Arad": 75, "Oradea": 71},
 }
+
+
+def shortest_path(start: str, goal: str):
+    from core.algorithms import a_star_search
+    return a_star_search(start, goal)
