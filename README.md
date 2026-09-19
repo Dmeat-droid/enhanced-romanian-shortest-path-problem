@@ -80,6 +80,6 @@ pytest test_map.py
 ## 📝 Kesimpulan
 
 1. **Haversine Formula** menghasilkan estimasi jarak yang konsisten dan *admissible*, sehingga cocok digunakan sebagai fungsi heuristik $h(n)$ pada pencarian rute berbasis peta dunia nyata.
-2. **A\* Search** selalu menjamin solusi rute terpendek yang optimal karena mempertimbangkan akumulasi biaya yang telah ditempuh ($g(n)$) bersama dengan estimasi sisa jarak ($h(n)$).
+2. **A\* Search** selalu menjamin solusi rute terpendek yang optimal karena mempertimbangkan akumulasi biaya yang telah ditempuh ( $g(n)$ ) bersama dengan estimasi sisa jarak ( $h(n)$ ).
 3. **Greedy BFS** dapat menghasilkan rute yang suboptimal atau lebih panjang karena hanya mengejar simpul dengan nilai $h(n)$ terkecil tanpa memperhitungkan biaya perjalanan sebelumnya.
 
